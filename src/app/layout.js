@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-red-200 flex flex-col">
+      <body className="min-h-screen bg-blue-50 flex flex-col">
         <Header />
         {children}
         <Footer />
